@@ -1,7 +1,6 @@
 package org.example;
 
-public class Exercise13 {
-
+public class Exercise613 {
     public static void main(String[] args) {
         printNumberInWord(0);
         printNumberInWord(9);
