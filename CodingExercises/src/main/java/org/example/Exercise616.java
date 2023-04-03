@@ -1,6 +1,6 @@
 package org.example;
 
-public class Exercise617 {
+public class Exercise616 {
 
     public static void main(String[] args) {
             isPalindrome(12521);
