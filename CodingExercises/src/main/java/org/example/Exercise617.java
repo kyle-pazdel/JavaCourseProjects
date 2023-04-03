@@ -1,6 +1,6 @@
 package org.example;
 
-public class Exercise17 {
+public class Exercise617 {
 
     public static void main(String[] args) {
         System.out.println(sumFirstAndLastDigit(252));
