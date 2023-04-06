@@ -19,7 +19,7 @@ public class ReadingUserInputChallenge {
                 System.out.println("You must enter a valid number!!!");
             }
         } while (number <= 5);
-        
+
         System.out.println("The sum of these numbers is: " + sum);
     }
 
