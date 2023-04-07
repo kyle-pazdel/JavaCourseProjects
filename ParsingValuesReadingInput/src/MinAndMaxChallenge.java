@@ -26,15 +26,12 @@ public class MinAndMaxChallenge {
             } catch (NumberFormatException nfe) {
                 break;
             }
-            System.out.println("Minimum Number: " + min);
-            System.out.println("Maximum Number: " + max);
-
         } while (true);
-    }
 
-    public static double checkForInt(String input) {
-        double number = Double.parseDouble(input);
-        return number;
+        if (loopCount > 0) {
+            System.out.println("min = " + min + ", max = " + max);
+        } else {
+            System.out.println("No valid data entered");
+        }
     }
-
 }
