@@ -1,3 +1,5 @@
+package org.example;
+
 public class Exercise625 {
 
     public static void main(String[] args) {

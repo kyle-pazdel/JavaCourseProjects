@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.Scanner;
 
 public class Exercise628 {
@@ -21,9 +23,9 @@ public class Exercise628 {
             }
             sum += number;
         }
-        if (count != 0) {
-            avg = Math.round((double) sum/count);
-        }
+//        if (count != 0) {
+//            avg = Math.round((double) sum/count);
+//        }
         System.out.println("SUM = " + sum + " AVG = " + avg);
     }
 }
